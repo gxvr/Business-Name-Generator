@@ -9,6 +9,7 @@
   "author": "Stacktech Solutions",
   "license": "ISC",
   "dependencies": {
+    "autoprefixer": "^10.0.2",
     "tailwindcss": "^2.0.1"
   }
 }
