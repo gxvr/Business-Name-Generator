@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom */
+
+.tracking-tighter {
+    letter-spacing: -0.05em !important;
+}
+
+.tracking-wide {
+    letter-spacing: 0.025em !important;
+}
+
+.tracking-tight {
+    letter-spacing: -0.025em !important;
+}
