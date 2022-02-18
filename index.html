@@ -13,20 +13,19 @@
     <link rel="stylesheet" href="assets/css/custom.css">
 </head>
 
-<body class="bg-gray-800 font-inter antialiased font-feature-default">
-
+<body class="bg-white font-inter antialiased font-feature-default">
     <main class="main-container">
         <section class="w-full h-full">
-            <div class="container m-auto lg:text-center">
+            <div class="container m-auto text-center">
                 <div class="pt-28 pr-5 pl-5 lg:p-44">
                     <div class="h-full px-4">
                         <div>
-                            <h1 class="text-white font-weight-normal lg:font-bold tracking-tighter leading-none text-4xl mx-auto max-w-2xl lg:text-8xl lg:mx-auto sm:text-5xl">Find a great <span class="text-green-400" style="box-shadow: rgb(31 41 55) 0px -0.166667em 0px 0px inset, rgb(111 255 202 / 26%) 0px -0.333333em 0px 0px inset;">trademark</span> with Markavo.
+                            <h1 class="text-gray-900 font-weight-normal font-bold tracking-tighter leading-none text-4xl ml-0 mr-auto pb-5 lg:pb-0 max-w-2xl sm:text-7xl lg:text-8xl lg:mx-auto text-5xl">Find a great <span class="text-green-400" style="box-shadow: rgba(255, 255, 255, 0) 0px -0.166667em 0px 0px inset, rgb(111 255 202 / 26%) 0px -0.333333em 0px 0px inset;">trademark</span> with Markavo.
                             </h1>
                         </div>
-                        <div class="relative w-full lg:mx-auto lg:w-4/5">
+                        <div class="relative mx-auto w-full sm:w-4/5">
                             <form id='form' class='input-form' autocomplete="off">
-                                <input type="text" class="border-2 border-gray-500 focus:border-gray-600 block rounded-md w-full text-1xl font-light bg-gray-800 tracking-tight my-5 lg:my-14 text-gray-400 p-3 lg:p-6 lg:text-2xl" placeholder="Type a name to start with..." id='input' oninvalid="this.setCustomValidity('Please enter a name to start with')"
+                                <input type="text" class="border-2 border-gray-800 focus:border-gray-800 block rounded-md w-full text-1xl font-light bg-white tracking-tight my-5 lg:my-14 text-gray-400 p-3 lg:p-6 lg:text-2xl" placeholder="Type a name to start with..." id='input' oninvalid="this.setCustomValidity('Please enter a name to start with')"
                                     oninput="setCustomValidity('')" required>
                                 <div class="relative right-0 lg:absolute lg:right-5 lg:inset-y-0 lg:flex lg:items-center">
                                     <button class="w-full py-4 lg:py-3 lg:px-8 bg-green-600 text-white font-semibold rounded-lg shadow-md hover:bg-green-700 focus:outline-none focus:ring-2 focus:ring-green-400 focus:ring-opacity-75 submit" id="genBtn">
@@ -35,7 +34,7 @@
                                 </div>
                             </form>
                         </div>
-                        <button class="w-4/5 lg:mx-auto text-white font-medium text-base tracking-wide lg:text-right block -my-10 p-0 block underline" onclick="document.getElementById('myModal').showModal()" id="btn">How to use Markavo's suggestive brand generator.</button>
+                        <a href="https://markavo.com/suggestive-brand-generator" class="sm:w-full md:w-4/5 mx-auto mt-7 sm:mt-6 md:mt-4 text-gray-900 font-medium text-base tracking-wide sm:text-center md:text-right block md:-my-0 lg:-my-10 p-0 block underline" onclick="document.getElementById('myModal').showModal()" id="btn">How to use Markavo's suggestive brand generator.</a>
                     </div>
                 </div>
             </div>
@@ -50,26 +49,26 @@
             </div>
         </section>
 
-        <footer class="invisible lg:visible lg:w-full lg:bottom-0 bg-gray-800 lg:pb-6">
+        <footer class="visible lg:visible lg:w-full lg:bottom-0 bg-white lg:pb-6">
             <div class="container mx-auto px-4">
                 <hr class="mb-6 border-b-1 border-gray-700">
                 <div class="flex flex-wrap items-center md:justify-between justify-center">
-                    <div class="w-full md:w-4/12 px-4">
-                        <div class="text-sm text-white py-1 tracking-wide">Copyright © 2022 Markavo, LLC. All Rights Reserved.</div>
+                    <div class="w-full md:w-8/12 lg:w-6/12 px-0 md:px-4">
+                        <div class="text-sm text-gray-900 py-1 tracking-wide">Copyright © 2022 Markavo, LLC. All Rights Reserved.</div>
                     </div>
-                    <div class="w-full md:w-8/12 px-4">
-                        <ul class="flex flex-wrap list-none md:justify-end justify-center">
-                            <li><a href="https://markavo.com/terms/" class="text-white hover:text-gray-400 text-sm tracking-wide block py-1 px-3" target="_blank">Terms</a>&<a href="https://markavo.com/privacy/" class="text-white hover:text-gray-400 text-sm tracking-wide block py-1 px-3" target="_blank">Privacy</a></li>
+                    <div class="w-full md:w-4/12 lg:w-6/12 px-0 md:px-4">
+                        <ul class="flex flex-wrap list-none md:justify-end justify-start">
+                            <li class="flex mt-1 md:mt-0">
+                                <a href="https://markavo.com/terms/" class="text-gray-900 hover:text-gray-500 text-sm tracking-wide block py-1 px-0 pr-3 md:px-3" target="_blank">Terms</a>
+                                &
+                                <a href="https://markavo.com/privacy/" class="text-gray-900 hover:text-gray-500 text-sm tracking-wide block py-1 px-0 pl-3 md:px-3" target="_blank">Privacy</a>
+                            </li>
                         </ul>
                     </div>
                 </div>
             </div>
         </footer>
-
-       
-
     </main>
-
 </body>
 
 <script src="assets/js/generator.js"></script>
